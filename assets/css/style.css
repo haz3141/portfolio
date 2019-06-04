@@ -1,0 +1,53 @@
+body {
+  background-image: url(../images/background.png);
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  float: left;
+}
+
+.head-container {
+  background: #ffffff;
+  overflow: auto;
+}
+
+.nav-container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.name-header {
+  background: #4aaaa5;
+}
+
+nav {
+  float: right;
+}
+
+li {
+  display: inline;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+.main {
+  background: #ffffff;
+  clear: both;
+  width: 960px;
+  margin: 20px auto;
+}
+
+footer {
+  background: #666666;
+}
+
+h1 {
+  color: #4aaaa5;
+}
+
