@@ -154,3 +154,28 @@ textarea {
     color: #ffffff;
     cursor: pointer;
 }
+
+/* Container holding the image and the text */
+.project-container {
+    position: relative;
+    max-width: 200px;
+    max-height: 200px;
+    margin: 20px;
+    float: left;
+  }
+  
+  /* Bottom right text */
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 5px 20px;
+    width: 200px;
+    text-align: center;
+  }
+ 
+  #projects {
+      overflow: auto;
+  }
