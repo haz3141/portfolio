@@ -163,6 +163,11 @@ textarea {
     margin: 20px;
     float: left;
   }
+
+  /* Needed to have two per row in projects*/
+.project-container:nth-child(even){
+    margin-right: 150px;
+}
   
   /* Bottom right text */
   .text-block {
